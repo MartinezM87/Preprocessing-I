@@ -14,9 +14,9 @@
   <![endif]-->
 </head>
 
-<body style="margin:0 10%; padding: 0 4%; background-color: darkcyan;">
-  <section style="width:50%; margin:1% auto; background-color: white; border:1px solid gray; padding:1%;">
-    <nav style="display:flex; flex-direction: row; justify-content:space-between; text-align: right;">
+<body>
+  <section class="navbar">
+    <nav class="navbar-links">
       <a href="">Home</a>
       <a href="">About me</a>
       <a href="">My work</a>
@@ -25,23 +25,23 @@
   </section>
 
   <section>
-    <div style="background-color: white; width:60%; padding:4%; margin:0 auto;">
+    <div class="header">
       <h2>Magdiel Martinez</h2> <br />
       <h3>FullStack Web-Dev</h3>
-      <p style="margin:1%;">
+      <p>
         Always open to colaborate on side projects in my spare time feel free to reach out to me
       </p>
-      <button style="margin:1%;"><a href="index.html"> Contact</a></button>
+      <button><a href="index.html"> Contact</a></button>
 
     </div>
   </section>
 
 
 
-  <section style="display:flex;">
-    <div style="background-color: white; width:45%; padding:4%; margin:3% auto;">
-        <p>Great Idea Service Site</p>
-        <img src="img/great idea.PNG" alt="">
+  <section class="flex">
+    <div class="work-content">
+      <p>Great Idea Service Site</p>
+      <img src="img/great idea.PNG" alt="">
     </div>
     <div style="background-color: white; width:45%; padding:4%; margin: 3% auto;">
       <p>Great Idea Site</p>
@@ -51,17 +51,53 @@
 
   </section>
 
-  <section style="display:flex;">
-    <div style="background-color: white; width:45%; padding:4%; margin:3% auto;">
-        <p>Lambda Site Main</p>
-        <img src="img/Lambda1.PNG" alt="">
+  <section class="flex">
+    <div class="work-content">
+      <p>Lambda Site Main</p>
+      <img src="img/Lambda1.PNG" alt="">
     </div>
-    <div style="background-color: white; width:45%; padding:4%; margin: 3% auto;">
+    <div class="work-content">
       <p>Great Idea Site</p>
       <img src="img/lambda2.PNG" alt="">
     </div>
 
   </section>
+
+  <section>
+    <div class="middle-content">
+      <h2>Work history</h2> <br />
+      <h3>Sales associate - BestBuy</h3> <br />
+      <h3>Office Assistant - Advanced Mortage Lenders</h3> <br />
+      <h3>Sales assocaite - Foot Locker</h3>
+
+    </div>
+  </section>
+
+
+  <section class="bottom-content">
+    <div class="form">
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="first name">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="last name">
+        <label for="fname">Email</label>
+        <input type="text" id="fname" name="firstname" placeholder="email@.com">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+
+
 
 </body>
 

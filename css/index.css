@@ -130,6 +130,15 @@ table {
 * {
   box-sizing: border-box;
 }
+.cyan {
+  background: darkcyan;
+}
+.white {
+  background: white;
+}
+.flex {
+  display: flex;
+}
 html,
 body {
   height: 100%;
@@ -140,11 +149,79 @@ a {
 }
 nav a:hover {
   background: darkcyan;
-  color: white;
+  background: white;
 }
 nav a {
   border: 0.1px solid darkcyan;
 }
 img {
   width: 30rem;
+}
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: darkcyan;
+}
+input[type=submit]:hover {
+  background-color: #1a8dff;
+}
+body {
+  margin: 0 10%;
+  padding: 0 4%;
+  background-color: darkcyan;
+}
+.navbar {
+  width: 50%;
+  margin: 1% auto;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 1%;
+}
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+}
+.header {
+  background-color: white;
+  width: 60%;
+  padding: 4%;
+  margin: 0 auto;
+}
+p {
+  margin: 1%;
+}
+.work-content {
+  background-color: white;
+  width: 45%;
+  padding: 4%;
+  margin: 3% auto;
+}
+.middle-content {
+  background-color: white;
+  width: 60%;
+  padding: 4%;
+  margin: 0 auto;
+}
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
 }
