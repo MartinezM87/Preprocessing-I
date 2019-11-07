@@ -145,3 +145,6 @@ nav a:hover {
 nav a {
   border: 0.1px solid darkcyan;
 }
+img {
+  width: 30rem;
+}
